@@ -15,10 +15,10 @@
   <div class="overflow-x-hidden">
     <!-- navbar start -->
 
-    <nav class="bg-white fixed w-full z-20 top-0 left-0 pt-9">
+    <nav class="bg-white fixed w-full z-50 top-0 left-0 md:pt-9 pt-5">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="https://flowbite.com/" class="flex items-center">
-          <img src="/assets/Logo.svg" class="" alt="Flowbite Logo">
+          <img src="/assets/Logo.svg" class="w-full" alt="Flowbite Logo">
         </a>
 
         <div class="flex gap-x-7 md:order-2">
@@ -42,28 +42,28 @@
           </button>
         </div>
 
-        <div class="items-center justify-between hidden w-full lg:flex md:w-auto" id="navbar-sticky">
+        <div class="items-center justify-between hidden w-full lg:flex md:w-auto xs:bg-whiteCustom sm:mb-0 mb-5 bg-gray-200" id="navbar-sticky">
           <ul
-            class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white ">
+            class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white ">
             <li>
               <a href="#"
-                class="block py-2 pl-6 pr-6 text-white bg-primary rounded md:bg-transparent md:text-primary text-lg md:p-0 "
+                class="block py-2 pl-6 pr-6 md:text-white hover:bg-primary rounded md:bg-transparent md:text-primary text-lg md:p-0 "
                 aria-current="page">Home</a>
             </li>
             <li>
-              <a href="#" class="block text-c1 py-2 pl-6 pr-6 bg-primary rounded md:bg-transparent  text-lg md:p-0"
+              <a href="#" class="block text-c1 py-2 pl-6 pr-6 hover:bg-primary rounded md:bg-transparent  text-lg md:p-0"
                 aria-current="page">Product</a>
             </li>
             <li>
-              <a href="#" class="block text-c1 py-2 pl-6 pr-6 bg-primary rounded md:bg-transparent  text-lg md:p-0"
+              <a href="#" class="block text-c1 py-2 pl-6 pr-6 hover:bg-primary rounded md:bg-transparent  text-lg md:p-0"
                 aria-current="page">Pricing</a>
             </li>
             <li>
-              <a href="#" class="block text-c1 py-2 pl-6 pr-6 bg-primary rounded md:bg-transparent  text-lg md:p-0"
+              <a href="#" class="block text-c1 py-2 pl-6 pr-6 hover:bg-primary rounded md:bg-transparent  text-lg md:p-0"
                 aria-current="page">Feature</a>
             </li>
             <li>
-              <a href="#" class="block text-c1 py-2 pl-6 pr-6 bg-primary rounded md:bg-transparent  text-lg md:p-0"
+              <a href="#" class="block text-c1 py-2 pl-6 pr-6 hover:bg-primary rounded md:bg-transparent  text-lg md:p-0"
                 aria-current="page">About</a>
             </li>
           </ul>
@@ -77,18 +77,18 @@
     <!-- header start -->
 
     <header
-      class="xl:mx-[135px] md:mx-10 mx-5 grid lg:gap-7 gap-3 lg:grid-cols-2 justify-between items-center lg:mt-[220px] lg:mb-32 mt-[180px] md:mb-16 my-10 overflow-visible">
+      class="xl:mx-[135px] md:mx-10 mx-5 grid lg:gap-7 gap-5 flex-col-reverse lg:grid-cols-2 justify-between items-center lg:mt-[220px] lg:mb-32 mt-[140px] md:mb-16 my-10 overflow-visible">
       <div class="lg:block flex flex-col items-center justify-center">
         <h2 class="font-bold md:text-5xl text-3xl leading-normal lg:text-left text-center text-darkBlue">Bringing the
           smartest
           people together through
           a network</h2>
-        <img class="mt-10 mb-12" src="/assets/line-bar.png" alt="" />
+        <img class="md:mt-10 mt-6 mb-7 md:mb-12" src="/assets/line-bar.png" alt="" />
         <p class="text-grayCustom mb-12 font-normal w">The point of using Lorem Ipsum is that it has a more or less
           normal
           distribution of letters, as opposed to using Content here, content here,
           making it look like readable English.</p>
-        <div class="flex md:order-2 gap-x-7">
+        <div class="flex flex-wrap md:order-2 gap-7">
           <button type="button"
             class="text-primary focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium text-lg text-center md:mr-0 flex items-center gap-2 py-3 px-2 border-2 border-primary rounded-lg">
             <img src="/assets/watch-video-btn-icon.png" /> Watch Video</button>
@@ -184,9 +184,9 @@
           <div class="text-center flex flex-col justify-center items-center">
             <h2 class="text-primary font-bold lg:text-[2.5em] text-4xl">Flexible Plans</h2>
             <p class="mt-6 mb-12 text-gray-600">Choose a plan that works best for your and your team</p>
-            <div class="w-80 flex justify-between items-center bg-secondary rounded-full">
-              <button class="w-36 h-16 text-white text-lg font-bold ">Monthly</button>
-              <button class="w-36 h-16 text-lg font-bold rounded-full text-primary bg-white my-1 mx-1 hover:bg-gray-100
+            <div class="md:w-80 w-72 flex justify-between items-center bg-secondary rounded-full">
+              <button class="md:w-36 w-28 md:h-16 h-14 text-white text-lg font-bold ">Monthly</button>
+              <button class="md:w-36 w-28 md:h-16 h-14 text-lg font-bold rounded-full text-primary bg-white my-1 mx-1 hover:bg-gray-100
                  focus:ring-4 focus:outline-none focus:ring-blue-300">Yearly</button>
             </div>
           </div>
@@ -242,7 +242,7 @@
                     src="/assets/icons/cros-sign.svg" alt="" /> Hotline Support 24/7</li>
                 <li class="flex items-center gap-4 my-5 text-white font-normal text-lg leading-7"> <img
                     src="/assets/icons/cros-sign.svg" alt="" /> 100+ HTML UI Elements</li>
-                <li class="flex items-center gap-4 my-5  font-normal text-lg leading-7"> <img
+                <li class="flex items-center gap-4 my-5 text-white font-normal text-lg leading-7"> <img
                     src="/assets/icons/cros-sign.svg" alt="" /> WooCommerce Builder</li>
               </ul>
 
@@ -616,7 +616,7 @@
     <!-- footer start -->
 
     <footer id="footer" class="bg-darkblue">
-      <div class="xl:mx-[135px] mx-12 pb-28">
+      <div class="xl:mx-[135px] mx-12 md:pb-28 pb-16">
         <div class="mb-12 flex flex-col justify-between md:flex-row xl:gap-x-24 gap-x-5">
           <div>
             <div class="flex items-center gap-x-4 pt-20 mb-7">
