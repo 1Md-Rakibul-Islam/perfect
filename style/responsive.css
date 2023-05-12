@@ -1,0 +1,30 @@
+@media (min-width: 1280px) {
+    .box {
+      margin-left: 6rem;
+      margin-right: 6rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .box {
+      margin-left: 2.5rem;
+      margin-right: 2.5rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .box {
+      margin-left: 1.25rem;
+      margin-right: 1.25rem;
+    }
+  }
+  
+  .box {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+  }
+  
+  .box {
+    overflow-x: hidden;
+  }
+  
